@@ -8,8 +8,8 @@ const Card = (props) => {
   return (
     <>
     <div className='employeeCard'>
-      <h2>Name: {name} </h2>
-      <h2>Role: {role}</h2>
+      <h2>{name} </h2>
+      <h2>{role}</h2>
       <Counter value = {counterValue}/>
     </div>
     </>

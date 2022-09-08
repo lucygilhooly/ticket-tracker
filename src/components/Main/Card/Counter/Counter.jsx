@@ -28,8 +28,9 @@ const Counter = (props) => {
      
         <h3 className='counter__title'>Counter</h3>
         <output className='counter__output'>{value[counter]}</output>
-        <button className='counter__minus' onClick={handleDecrement}>-</button>
-        <button className='counter__add'onClick={handleIncrement}>+</button>
+       <button className='counter__add'onClick={handleIncrement}>+</button> 
+       <button className='counter__minus' onClick={handleDecrement}>-</button>
+        
     </div>
   )
 };
