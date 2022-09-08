@@ -1,5 +1,6 @@
+@use "./assets/sass/_variables.scss" as *;
 .app {
   height: 100%;
   width: 100%;
-  background-color: #e4ddf4;
+  background-color: $colourFour;
 }

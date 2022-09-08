@@ -1,11 +1,13 @@
+@use "../../../assets/sass/_variables.scss" as *;
+
 .employeeCard {
     padding: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#fffbf0;
+    background-color:$colourTwo;
     border-radius: 15px;
-    color: #282612;
+    color: $colourThree;
 
 }

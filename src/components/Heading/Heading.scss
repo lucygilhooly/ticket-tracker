@@ -1,6 +1,8 @@
+@use "../../assets/sass/_variables.scss" as *;
+
 .heading {
     display: flex;
     justify-content: center;
-    color: #943d24;
-    text-shadow: 2px 2px #fffbf0;
+    color: $colourOne;
+    text-shadow: 2px 2px $colourTwo;
 }
