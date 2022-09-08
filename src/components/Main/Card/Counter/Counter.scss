@@ -4,6 +4,27 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
-    width: 50%;
+    width: 40%;
+    border-radius: 15px;
+    background-color: #943d24;
+    color:#fffbf0;
+
+    &__title {
+
+        color: #e4ddf4;
+    }
+
+    &__minus, &__add {
+        border: none;
+        font-weight: bold;
+        font-size: 25px;
+        color:#e4ddf4;
+        background-color: #943d24;
+
+    }
+    &__output{
+        margin:5px;
+        font-weight: bold;
+        font-size: 40px;
+    }
 }
