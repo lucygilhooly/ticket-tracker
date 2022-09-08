@@ -1,0 +1,11 @@
+.employeeGrid {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    margin:15px;
+    padding:15px;
+    border-radius: 15px;
+    background-color: #943d24;
+}
