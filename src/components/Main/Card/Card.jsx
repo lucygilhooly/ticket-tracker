@@ -1,15 +1,18 @@
 import React from 'react'
 import "./Card.scss"
-import Counter from './Counter/Counter'
+import Counter from './Counter/Counter';
+import counterValue from '../../../assets/data/counterValue';
 
-const Card = () => {
+const Card = (props) => {
+  const {name, role} = props;
   return (
-    <div className='card'>
-      <h2 className='card__name'>Name:</h2>
-      <h2 className='card__role'>Role:</h2>
-      <Counter />
+    <>
+    <div className='employeeCard'>
+      <h2>Name: {name} </h2>
+      <h2>Role: {role}</h2>
+      <Counter value = {counterValue}/>
     </div>
+    </>
   )
 }
-
 export default Card
